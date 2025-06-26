@@ -19,7 +19,7 @@ int correctAnswer, number1, number2;
 number1 = firstNumber(numberEngine);
 number2 = secondNumber(numberEngine);
 
-
+//Display the two random numbers and prompt the user to calculate the correct answer
 cout << "Calculate " << number1 << " + " << number2 << ". Then, press any key when you are ready to view the correct answer." << endl;
 
 //Calculate the correct answer
