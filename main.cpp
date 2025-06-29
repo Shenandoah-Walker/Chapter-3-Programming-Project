@@ -21,12 +21,15 @@ double principal, rate, T, amount;
    amount = principal * pow((1 + ((rate / 100) / T)), (T * 1));
 
 
-    //Output the results, with all variables except T having two decimal places.
+    //Output the results, with all variables except T having two decimal places. Also, the output should be formatted so that the values of the variables are aligned with each other.
+    cout << endl;
     cout << fixed << setprecision(2);
     cout << "Interest Rate: " << setw(13) << rate << "%" << endl;
     cout << "Times Compounded: " << setprecision(0) << setw(10) << T << endl;
     cout << "Principal:" << setprecision(2) << setw(11) << "$ " << principal << endl;
     cout << "Interest:" << setw(12) << "$ " << setw(7) << amount - principal << endl;
     cout << "Amount in Savings: $ " << amount << endl;
-    
+
+
+    return 0;
 }
