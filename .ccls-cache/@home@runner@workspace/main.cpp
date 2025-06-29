@@ -27,4 +27,7 @@ cout << "To make " << newCookies << " cookie(s), you will need: " << endl;
 cout << newSugar << " cup(s) of sugar" << endl;
 cout << newButter << " cup(s) of butter" << endl;
 cout << newFlour << " cup(s) of flour" << endl;
+
+
+return 0;
 }
