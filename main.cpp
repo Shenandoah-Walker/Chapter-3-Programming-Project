@@ -17,5 +17,10 @@ double principal, rate, T, amount;
     cin >> T;
 
    amount = principal * pow((1 + (rate / T)), (T * 1));
-  cout << amount << endl;
+    cout << "Interest Rate: $" << rate << endl;
+    cout << "Times Compounded: " << T << endl;
+    cout << "Principal: $" << principal << endl;
+    cout << "Interest: $" << amount - principal << endl;
+    cout << "Amount in Savings: $" << amount << endl;
+    
 }
