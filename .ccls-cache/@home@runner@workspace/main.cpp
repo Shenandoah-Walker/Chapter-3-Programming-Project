@@ -31,4 +31,6 @@ int main()
 //Display the correct answer below the line after the user presses the Enter key
   cin.get();
   cout << setw(5) << correctAnswer << endl;
+
+    return 0;
 }
